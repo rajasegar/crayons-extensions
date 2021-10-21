@@ -1,0 +1,21 @@
+{
+  "name": "crayons-extensions",
+  "version": "0.0.0",
+  "description": "Extensions for Crayons Components",
+  "main": "dist/crayons-extensions.js",
+  "module": "dist/crayons-extensions.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": ["crayons", "extensions", "components","web components"],
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@rajasegar/styled-web-components": "^2.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
