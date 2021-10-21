@@ -1,4 +1,4 @@
-import { GridProps } from 'https://unpkg.com/@rajasegar/styled-web-components@2.0.2/dist/styled-web-components.min.js'
+import { GridProps } from '@rajasegar/styled-web-components'
 
 export class FWGrid extends HTMLElement {
   constructor() {

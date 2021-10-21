@@ -1,4 +1,4 @@
-import { FlexboxProps } from 'https://unpkg.com/@rajasegar/styled-web-components@2.0.2/dist/styled-web-components.min.js'
+import { FlexboxProps } from '@rajasegar/styled-web-components'
 
 export class FWFlex extends HTMLElement {
   constructor() {
