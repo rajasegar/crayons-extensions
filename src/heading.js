@@ -16,7 +16,12 @@ export class FWHeading extends HTMLElement {
     const template = document.createElement("template");
     this.level = this.getAttribute("level");
     const heading = "h" + this.getAttribute("level");
-    template.innerHTML = "<" + heading + "><slot></slot></" + heading + ">";
+    template.innerHTML = `
+<style>
+:host { display: block }
+</style>
+<${heading}><slot></slot></${heading}>
+`;
     this.shadowRoot.appendChild(template.content.cloneNode(true));
     this.heading = this.shadowRoot.querySelector(heading);
     this.applyStyles();
