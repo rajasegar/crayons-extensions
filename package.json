@@ -1,6 +1,6 @@
 {
   "name": "crayons-extensions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extensions for Crayons Components",
   "main": "dist/crayons-extensions.js",
   "module": "dist/crayons-extensions.min.js",
