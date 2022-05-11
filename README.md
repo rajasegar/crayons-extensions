@@ -9,9 +9,5 @@ CDN
 
 ## Codepen demo
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="crayons-extensions" src="https://codepen.io/rajasegar/embed/ZErOKNy?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/rajasegar/pen/ZErOKNy">
-  crayons-extensions</a> by Rajasegar (<a href="https://codepen.io/rajasegar">@rajasegar</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+[Codepen](https://codepen.io/rajasegar/pen/ZErOKNy)
 
